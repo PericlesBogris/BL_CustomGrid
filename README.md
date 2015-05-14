@@ -1,7 +1,37 @@
-# Enhanced Admin Grids
-## Version 0.9.0
+MMind_BL_CustomGrid
+==================
 
-Enhanced Admin Grids extension for Magento.
-More informations about the extension can be found on its Magento Connect page [here](https://www.magentocommerce.com/magento-connect/enhanced-admin-grids-editor.html).
+Enhanced Admin Grids Extension for Magento
+Fork of BL_CustomGrid
 
-_The 1.0.0 version is now under development, and is available as work-in-progress [here](https://github.com/mage-eag/mage-enhanced-admin-grids/tree/1.0.0-wip) (testing purposes only)._
+# Features
+
+
+# Contributors
+- Giuseppe Morelli
+
+# Stable version
+
+0.9.0
+
+# MAGENTO Installation
+
+
+### via [composer](https://getcomposer.org/download/)
+Add to your composer.json file this:
+<pre>
+{
+    ...
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "mmind/bl_customgrid": "0.9.0"
+    },
+    ....
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:magemindcom/BL_CustomGrid.git"
+        }
+    ],
+    .....
+}</pre>
